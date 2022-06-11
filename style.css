@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100;
+}
+a{
+     text-decoration: none;
+}
+.container-fluid{
+   background: rgb(33, 37, 41);
+}
+.navbar-brand {
+	font-size: 17px;
+}
+.tite-hero-section {
+	margin-top: 115px;
+}
+ /* responsive */
+@media only screen and (max-width:992px){
+    .hero-img {
+        display:none;
+    }
+
+}
+.nav-link {
+	font-size: 12px;
+}
+.dropdown-item.text-danger {
+	font-size: 12px;
+}
+#navbarDropdown {
+	font-size: 13px;
+}
+@media only screen and (max-width:576px) {
+    
+    #queston .line-brkk{
+        display: block;
+    }
+}
